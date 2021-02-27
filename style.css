@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+body{
+background-size: cover;
+  margin:0;
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,.4) , rgba(0,0,0,.8) ), url("b.png")  ;
+  height: 190vh;
+ 
+  
+}
+.navbar{
+  
+  background: tomato;
+  list-style: none;
+  width:80%;
+  height: 50px;
+  margin: 0 20px;
+  padding:0 10px;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  
+}
+.navl{
+display: flex;
+width: 45%;
+  justify-content: space-between;
+  padding: 0 10px;
+  
+ 
+}
+.navl li{
+
+  
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.ser{
+
+justify-content: end;
+}
+.navbar .ser input[type="search"]{
+  
+  border:none;
+  
+  padding:8px;
+  outline:none;
+}
+.navbar .ser input[type="search"]:focus{
+
+background: whitesmoke;
+}
+#dugma{
+border: 2px double white;
+  color: white;
+  cursor: pointer;
+  padding : 6px;
+  border: 3px double white;
+  border-radius: 13px;
+  transition: 0.6s;
+
+}
+#dugma:active{
+
+box-shadow: 0px 0px 10px 0px white;
+  padding: 4px;
+border: 1px solid white;
+
+}
+hr{
+color: black;
+
+}
+
+.boxakan{
+  
+  
+  display:flex;
+  margin:8rem auto 0;
+  justify-content:space-between;
+  width:60%;
+  padding:0;
+  align-items:center;
+}
+.box{
+   display:flex;
+  flex-direction:column;
+  height:270px;
+  width: 120px;
+
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 30px;
+  background: rgba(236,79,79,.76) ;
+ text-align:center;
+align-items:center;
+  
+justify-content:space-between;
+}
+.wenakan{
+  object-fit:cover;
+width: 100px;
+  height: 100px;
+  border-radius: ;
+
+}
+.fufy{
+background: tomato;
+flex-direction: flex-end;
+
+margin-bottom: 70px;
+}
+.foot h1{
+  
+  font-family: 'Odibee Sans', cursive;
+  
+  
+  
+}
+img{
+filter: blur(5px);
+}
+@media only screen and (max-width:600px){
+  header{
+height: 150vh;
+    
+    background-size: cover;
+
+}
+  .navbar{
+
+width:85%;
+    height: 40px;
+    padding
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+
+}
+  .navl li{
+
+font-size: 13px;
+}
+  .navbar .ser input[type="search"]{
+padding: 5px;
+width: 6rem;
+}
+  #dugma{
+width: 54px;
+padding: 3px;
+}
+  .fufy{
+    
+ 
+margin-bottom: 70px;
+
+}
+  .boxakan{
+
+display: grid;
+    grid-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+}
