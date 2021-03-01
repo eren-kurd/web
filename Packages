@@ -5,7 +5,7 @@ Section: Tweaks
 Maintainer: AH4Ma <kurdk6017@gmail.com>
 Depends: firmware (>10.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: A Test Tweak.deb
+Filename: ./debs/A Test Tweak.deb
 Size: 3826 
 MD5sum: c92d4235cdbdd334224f66ed611fc0e0
 Description: This is a test package.
