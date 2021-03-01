@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>My Telegram</name>
+			<url>https://t.me/hex_3</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name> My Source</name>
+			<url>https://hamaiosdev.github.io/</url>
+			<iconclass>fa fa-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>
