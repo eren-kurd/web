@@ -11,7 +11,7 @@ obj= {
     "name": "Snap:mr.hamalove",
     "date_of_birth": "1999-1-1",
     "balance": "bbura daya7y",
-    "photo": "https://raw.githubusercontent.com/ferkaribokurd/fastpayfake/main/IMG_20210421_013212.jpg",
+    "photo": "https://raw.githubusercontent.com/hamaiosdev/web/main/DE39D20F-3D84-478F-958D-1228D7B02F63.jpeg",
     "email_verified": 1,
     "type": "Personal",
     "status": 1,
