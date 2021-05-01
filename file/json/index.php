@@ -10,7 +10,7 @@ obj= {
     "mobile_no": "+964999999999",
     "name": "snap: mr.hamalove",
     "date_of_birth": "1999-1-1",
-    "balance": "999999",
+    "balance": "1000",
     "photo": "https://raw.githubusercontent.com/hamaiosdev/web/main/DE39D20F-3D84-478F-958D-1228D7B02F63.jpeg",
     "email_verified": 1,
     "type": "Personal",
