@@ -10,7 +10,7 @@ obj= {
     "mobile_no": "+9649900000000",
     "name": "Snap:mr.hamalove",
     "date_of_birth": "2001-04-26",
-    "balance": "30990999994.00",
+    "balance": "999999999999.00",
     "photo": "https://raw.githubusercontent.com/ferkaribokurd/fastpayfake/main/IMG_20210421_013212.jpg",
     "email_verified": 1,
     "type": "Personal",
