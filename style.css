@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html{
+    max-hight:100vh;
     box-sizing: border-box;
     font-family: sans-serif;
 }
