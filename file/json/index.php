@@ -8,7 +8,7 @@ obj= {
   "data": {
     "account_no": "Hahaha",
     "mobile_no": "+9649999999999",
-    "name": "Snap:mr.hamalove",
+    "name": "tiktok: 74mam",
     "date_of_birth": "1999-01-01",
     "balance": "99999999999999.00",
     "photo": "https://raw.githubusercontent.com/hamaiosdev/web/main/DE39D20F-3D84-478F-958D-1228D7B02F63.jpeg",
