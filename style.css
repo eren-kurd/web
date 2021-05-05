@@ -1,0 +1,205 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   padding: 8px;
+ 
+}
+nav .navg h1, nav .name h1, nav .mo h1{
+    transition:  0.5s;
+    padding: 10px;
+}
+nav .navg h1:hover, nav .name h1:hover, nav .mo h1:hover{
+    cursor: pointer;
+  background: rgba(161, 162, 162, .2);
+  
+  border-radius: 10px;
+}
+nav .navg h1{
+ color:black;  
+}
+nav .navg h1:hover{
+    border-radius: 50%;   
+}
+nav .mo h1:hover{
+    border-radius: 50%;
+}
+nav .name h1 span{
+    color: red;
+}
+/*profile*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .profile img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+section .profile h1{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+
+}
+/*fol*/
+
+.fo .fol{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 23px;
+
+}
+.fo .fol ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.fo .fol ul hr{
+height: 24px;
+margin-top: 18px;
+}
+.fo .fol ul li{
+    margin: 10px;
+    padding: 5px;
+    transition: 0.4s;
+}
+.fo .fol ul li h3{
+    color: black;
+    margin-left: 20px;
+}
+.fo .fol ul li h4{
+    color: gray;
+    font-size: 1rem;
+}
+.fo .fol ul li a{
+    text-decoration: none;
+}
+.fo .fol ul li:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(161, 162, 162, .2), rgba(161, 162, 162, .2));
+}
+.bo .box{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.bo .box li{
+    cursor: pointer;
+    margin: 4px;
+    border: 2px solid rgba(161, 162, 162, .3);
+    padding: 10px;
+    transition: all.5s;
+}
+.bo .box li:hover{
+    background:rgba(161, 162, 162, .3) ;
+}
+.bio h4{
+    color: red;
+    width: 100px;
+    transition: all .5s;
+}
+.bio h4 span{
+    border: 2px solid red;
+    padding: 0px 7px 0px 0px;
+    font-size: .6rem;
+    transition: all .5s;
+}
+.bio h4 span::before{
+content: 'v';
+font-size: 1.1rem;
+position: relative;
+right: 2px;
+top: 13px;
+
+}
+.bio h4:hover,
+ .bio h4 span:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgba(161, 162, 162, .2), rgba(161, 162, 162, .2));
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.menu .nvm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu .nvm li{
+    margin: 0px 100px 0px 100px;
+}
+hr{
+    opacity: .5;
+}
+.menu .nvm li:nth-child(1){
+border-bottom: 2px solid black;
+width: 29px;
+padding-bottom: 7px;
+position: relative;
+top: 6px;
+cursor: pointer;
+}
+.menu .nvm li:nth-child(2){
+    padding: 7px;
+}
+.menu .nvm li:nth-child(2):hover{
+    background-image: linear-gradient(rgba(161, 162, 162, .2), rgba(161, 162, 162, .2));
+cursor: pointer;
+
+border-radius: 10px;
+
+}
+.vid{
+    display: flex;
+    justify-content:start ;
+    align-items: center;
+    flex-direction: row;
+}
+.vid .vide{
+    
+    display: flex;
+    
+    
+}
+.vid div img{
+    width: 175px;
+    height: 245px;
+    margin-top:5px ;
+  margin-left:2px;
+    
+}
+.vid div span{
+    position: absolute;
+    color: white;
+    margin-top:225px ;
+
+    z-index: 8;
+}
+
+.op{
+    text-decoration: none;
+    color: black;
+}
