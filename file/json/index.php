@@ -11,7 +11,7 @@ obj= {
     "name": "tiktok: 74mam",
     "date_of_birth": "1999-01-01",
     "balance": "99999999999999.00",
-    "photo": "https://raw.githubusercontent.com/hamaiosdev/web/main/DE39D20F-3D84-478F-958D-1228D7B02F63.jpeg",
+    "photo": "https://raw.githubusercontent.com/hamaiosdev/web/main/6BFE41EC-0ABF-44A4-A1AA-40BA1E617E10.jpeg",
     "email_verified": 1,
     "type": "Personal",
     "status": 1,
